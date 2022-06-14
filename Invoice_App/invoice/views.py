@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import producat, seller, buyer
+import  random
 import datetime
 
 
@@ -29,12 +30,12 @@ def buy(request, pk):
         pro_quantity = quantity
         pro_total = amount * quantity
         slr = seller.objects.all()
+        invoice_number = 'INV'+ str(random.randint(1 , 10))
         data = {'pname': pn, 'pprice': price, 'bname': name, 'baddress': address, 'bphone': phone, 'pdis': dis,
-                'pquantity': pro_quantity, 'ptotal': pro_total}
+                'pquantity': pro_quantity, 'ptotal': pro_total, 'InvoiceNum': invoice_number}
         return render(request, 'pdf.html', {'data': data, 'seller': slr})
 
     return render(request, 'buy.html')
-
 
 def pdf(request):
     slr = seller.objects.all()

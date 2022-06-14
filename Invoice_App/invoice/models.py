@@ -13,6 +13,7 @@ class buyer(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=150)
     phone = models.IntegerField()
+    invoice_number = models.CharField(max_length=25, default='INV')
     "purchase_date = models.DateField(default=datetime.datetime.now)"
 
 class producat(models.Model):

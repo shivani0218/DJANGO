@@ -2,5 +2,27 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/-Recommendation-System-Engine-using-Django" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Book-Store" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DJANGO-ECOMMERCE(AMAZON)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DRF" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DjangoRestShopApy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django_api_for_ecommerce_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Eatrip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Eshop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Food-Ordering-System" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PyShop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-RESTful-web-apis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-ecommerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-ecommerce-project-amazon-clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-plans" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django-shop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django_ecommerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/drf_tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/e-commerce-REST_API_Django" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ecommerce-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ecommerce-website-in-django-3-and-bootstrap-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/food-ordering-system-django" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recommendation-system-in-django" vcs="Git" />
   </component>
 </project>

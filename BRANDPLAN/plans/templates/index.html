@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card-group">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for p in Plans %}
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><b>Plan Name</b> : {{p.planName}}</h5>
+              <p class="card-text"><b>PlanId</b> : {{p.planID}}</p>
+              <p class="card-text"><b>Plan Tenure</b> : {{p.tenureOptions}}</p>
+               <p class="card-text"><b>Benefit Percentage</b> : {{p.benefitPercentage}}%</p>
+                <p class="card-text"><b>Benefit Type</b> : {{p.benefitType}}</p>
+              <button type="submit" class="btn btn-primary mb-3">Select Plan</button>
+            </form>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+
+
+

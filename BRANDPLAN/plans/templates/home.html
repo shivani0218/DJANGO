@@ -1,0 +1,10 @@
+{% for plan in Plans %}
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"> {{plan.planName}}</h5>
+        <h5 class="card-title"> {{plan.planID}}</h5>
+        <h5 class="card-title"> {{plan.benefitType}}</h5>
+        <a href="#" class="btn btn-primary">ENROLL</a>
+    </div>
+</div>
+{% endfor %}
